@@ -8,7 +8,7 @@ class ChangZhang20240614 extends WebApiBase {
     constructor() {
         super()
         this.host = 'https://www.cz01.vip'
-        this.webSite = 'https://czzy.top'
+        this.webSite = 'https://www.czzymovie.com/'
         this.headers = {
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
         }
@@ -23,7 +23,7 @@ class ChangZhang20240614 extends WebApiBase {
             return url
         } catch (e) {
             UZUtils.debugLog(e)
-            return this.webSite
+            return this。webSite
         }
     }
 
